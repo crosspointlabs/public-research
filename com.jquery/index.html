@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<body>
+<p>
+Testing if com.jquery:jquery:1.9.1 is vulnerable<br>
+Download URL: https://mvnrepository.com/artifact/com.jquery/jquery/1.9.1 (and select the jar file under "Files")
+</p>
+
+<div id="bug-9521" style="color: #f00; display:inline">Bug 9521</div>
+<div id="bug-11290" style="color: #f00; display:inline">Bug 11290</div>
+<div id="issue-2432" style="color: #f00; display:inline">issue 2432</div>
+<div id="issue-4642" style="color: #f00; display:inline">issue 4642</div>
+<div id="issue-4647" style="color: #f00; display:inline">issue 4647</div>
+<div id="issue-11974" style="color: #f00; display:inline">issue 11974</div>
+<script src="jquery/jquery.js"></script>
+
+<script src="https://research.insecurelabs.org/jquery/test/bug11290.js"></script>
+<script src="https://research.insecurelabs.org/jquery/test/bug9521.js"></script>
+<script src="https://research.insecurelabs.org/jquery/test/issue11974.js"></script>
+<script src="https://research.insecurelabs.org/jquery/test/issue2432.js"></script>
+<script src="https://research.insecurelabs.org/jquery/test/issue4642.js"></script>
+<script src="https://research.insecurelabs.org/jquery/test/issue4647.js"></script>
+
+<style> 
+div[style="color: #f00; display:inline"] {
+	display: block !important;
+	color: #000 !important;
+}
+</style>
+</body>
+</html>
